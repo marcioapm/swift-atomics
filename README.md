@@ -1,3 +1,22 @@
+# Fork Notice
+
+This is a fork of [swift-atomics](https://github.com/apple/swift-atomics) with the only changes being:
+- This notice
+- Add SwiftAtomics.spec
+- Add SwiftAtomicsShims.spec
+- Add Sources/_AtomicsShims/src/Empty.swift
+
+## Installation
+```ruby
+use_frameworks!
+
+target "Change Me!" do
+  pod "SwiftAtomics", "~> 1.0.2"
+end
+```
+
+
+
 # Swift Atomics ⚛︎︎
 
 [SE-0282]: https://github.com/apple/swift-evolution/blob/master/proposals/0282-atomics.md
